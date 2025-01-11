@@ -1,8 +1,9 @@
 import ZegoExpressEngine from 'zego-express-engine-webrtc';
 
-const appID = YOUR_APP_ID; // Replace with your AppID
-const server = 'wss://webliveroom1234-api.zego.im/ws'; // Use your ZEGOCLOUD server URL
-const appSign = YOUR_APP_SIGN; // Replace with your AppSign
+const appID = 1140670926;
+const server = 'wss://webliveroom1234-api.zego.im/ws';
+const appSign =
+	'23e6faedf5a95e5c145f845bae92b79708b405447439062efc6b2ae284d0db33';
 
 let zegoEngine;
 
