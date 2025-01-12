@@ -24,7 +24,7 @@ const VideoComponent = () => {
 	};
 
 	const handlePlayStream = () => {
-		const streamID = 'stream_example'; // Replace with actual stream ID
+		const streamID = 'stream_example';
 		if (videoContainerRef.current) {
 			startPlaying(streamID, videoContainerRef.current);
 		}
